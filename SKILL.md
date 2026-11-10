@@ -2,7 +2,7 @@
 slug: unclekk-skill-dev-loop
 name: unclekk-skill-dev-loop
 displayName: UncleKK 技能开发闭环（实盘→派生→验证） | UncleKK Skill Dev Loop (Real-Disk→Derive→Verify)
-version: 1.3.0
+version: 1.3.1
 summary: >-
   固化 KK 的 skill 开发铁律与"改 skill → 同步派生到 cache → 重启 host → 端到端验证"闭环，避免每次重新排查"改完不生效"。含通用化 sync-to-cache 脚本与 safe-delete 环境限制应对。 | Encodes KK's skill-dev disciplines and the "edit skill → derive to cache → restart host → end-to-end verify" loop, so we never re-debug "edit didn't take effect". Ships a generalized sync-to-cache script and works around the safe-delete environment constraint.
 description: >-
